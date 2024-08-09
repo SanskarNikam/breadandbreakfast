@@ -1,0 +1,487 @@
+// Hostel data array
+let Hostel_data = [
+    {
+        id: "01",
+        rate: "9500 Rs/ Month",
+        sharing:"1 Sharing",
+        Location: "Shivaji Nagar",
+        Hotel_Name: "Elite Residency",
+        facility: "1 Bedroom/ Gym/ Air Conditioning / 1 Bathroom / Wifi /Study Room",
+        rating: './img/5star.png',
+},
+{
+        id: "02",
+        rate: "9500 Rs/ Month",
+        sharing:"2 Sharing",
+        Location: "Koregaon Park",
+        Hotel_Name: "Green Oasis Inn",
+        facility: "1 Bedroom/ Gym/ Air Conditioning / 1 Bathroom / Wifi /Study Room ",
+        rating: "./img/5star.png",
+       
+},
+{
+        id: "03",
+        rate: "9500 Rs/ Month",
+        sharing:"3 Sharing",
+        Location: "Baner",
+        Hotel_Name: "Sunrise Suites",
+        facility: "1 Bedroom/ Gym/ Air Conditioning / 1 Bathroom / Wifi /Study Room",
+        rating: `./img/5star.png`,
+       
+},
+{
+        id: "04",
+        rate: "9500 Rs/ Month",
+        sharing:"4 Sharing",
+        Location: "Magarpatta City",
+        Hotel_Name: "Harmony Heights",
+        facility: "1 Bedroom/ Gym/ Air Conditioning / 1 Bathroom / Wifi /Study Room",
+        rating: `./img/5star.png`,
+        
+},
+{
+        id: "05",
+        rate: "9500 Rs/ Month",
+        sharing:"5 Sharing",
+        Location: "Hinjewadi",
+        Hotel_Name: "Tech Haven Lodge",
+        facility: "1 Bedroom/ Gym/ Air Conditioning / 1 Bathroom / Wifi /Study Room",
+        rating: `./img/5star.png`,
+        
+},
+{
+        id: "06",
+        rate: "9500 Rs/ Month",
+        sharing:"1 Sharing",
+        Location: "Aundh",
+        Hotel_Name: "City Retreat Residency",
+        facility: "1 Bedroom/ Gym/ Air Conditioning / 1 Bathroom / Wifi /Study Room",
+        rating: `./img/5star.png`,
+        
+},
+{
+        id: "07",
+        rate: "9500 Rs/ Month",
+        sharing:"2 Sharing",
+        Location: "Pimpri-Chinchwad",
+        Hotel_Name: "Metro Living Suites",
+        facility: "1 Bedroom/ Gym/ Air Conditioning / 1 Bathroom / Wifi /Study Room",
+        rating: `./img/5star.png`,
+        
+},
+{
+        id: "08",
+        rate: "9500 Rs/ Month",
+        sharing:"3 Sharing",
+        Location: "Wagholi",
+        Hotel_Name: "Skyline Residences",
+        facility: "1 Bedroom/ Gym/ Air Conditioning / 1 Bathroom / Wifi /Study Room",
+        rating: `./img/5star.png`,
+        
+},
+{
+        id: "09",
+        rate: "9500 Rs/ Month",
+        sharing:"4 Sharing",
+        Location: "Kalyani Nagar",
+        Hotel_Name: "Luxe Living Inn",
+        facility: "1 Bedroom/ Gym/ Air Conditioning / 1 Bathroom / Wifi /Study Room",
+        rating: `./img/5star.png`,
+        
+},
+{
+        id: "10",
+        rate: "9500 Rs/ Month",
+        sharing:"5 Sharing",
+        Location: "Viman Nagar",
+        Hotel_Name: "Elegance Plaza",
+        facility: "1 Bedroom/ Gym/ Air Conditioning / 1 Bathroom / Wifi /Study Room",
+        rating: './img/5star.png',
+        
+},
+{
+        id: "11",
+        rate: "9500 Rs/ Month",
+        sharing:"1 Sharing",
+        Location: "Camp",
+        Hotel_Name: "Royal Comfort Inn",
+        facility: "1 Bedroom/ Gym/ Air Conditioning / 1 Bathroom / Wifi /Study Room",
+        rating: './img/5star.png',
+},
+{
+        id: "12",
+        rate: "9500 Rs/ Month",
+        sharing:"2 Sharing",
+        Location: "Kothrud",
+        Hotel_Name: "Golden Meadows Lodge",
+        facility: "1 Bedroom/ Gym/ Air Conditioning / 1 Bathroom / Wifi /Study Room",
+        rating: "./img/5star.png",
+       
+},
+{
+        id: "13",
+        rate: "9500 Rs/ Month",
+        sharing:"3 Sharing",
+        Location: "Hadapsar",
+        Hotel_Name: "Harbor View Suites",
+        facility: "1 Bedroom/ Gym/ Air Conditioning / 1 Bathroom / Wifi /Study Room",
+        rating: `./img/5star.png`,
+        
+},
+{
+        id: "14",
+        rate: "9500 Rs/ Month",
+        sharing:"4 Sharing",
+        Location: "Nigdi",
+        Hotel_Name: "Tranquil Gardens Inn",
+        facility: "1 Bedroom/ Gym/ Air Conditioning / 1 Bathroom / Wifi /Study Room",
+        rating: `./img/5star.png`,
+       
+},
+{
+        id: "15",
+        rate: "9500 Rs/ Month",
+        sharing:"5 Sharing",
+        Location: "Chinchwad",
+        Hotel_Name: "Elite Residency",
+        facility: "1 Bedroom/ Gym/ Air Conditioning / 1 Bathroom / Wifi /Study Room",
+        rating: `./img/5star.png`,
+       
+},
+{
+        id: "16",
+        rate: "9500 Rs/ Month",
+        sharing:"1 Sharing",
+        Location: "Kondhwa",
+        Hotel_Name: "Pinnacle Heights",
+        facility: "1 Bedroom/ Gym/ Air Conditioning / 1 Bathroom / Wifi /Study Room",
+        rating: `./img/5star.png`,
+        
+},
+{
+        id: "17",
+        rate: "9500 Rs/ Month",
+        sharing:"2 Sharing",
+        Location: "Wakad",
+        Hotel_Name: "Serenity Suites",
+        facility: "1 Bedroom/ Gym/ Air Conditioning / 1 Bathroom / Wifi /Study Room",
+        rating: `./img/5star.png`,
+        
+},
+{
+        id: "18",
+        rate: "9500 Rs/ Month",
+        sharing:"3 Sharing",
+        Location: "Karve Nagar",
+        Hotel_Name: "Grand View Residency",
+        facility: "1 Bedroom/ Gym/ Air Conditioning / 1 Bathroom / Wifi /Study Room",
+        rating: `./img/5star.png`,
+        
+},
+{
+        id: "19",
+        rate: "9500 Rs/ Month",
+        sharing:"4 Sharing",
+        Location: "Balewadi",
+        Hotel_Name: "Vista Gardens Lodge",
+        facility: "1 Bedroom/ Gym/ Air Conditioning / 1 Bathroom / Wifi /Study Room",
+        rating: `./img/5star.png`,
+        
+},
+{
+        id: "20",
+        rate: "9500 Rs/ Month",
+        sharing:"5 Sharing",
+        Location: "Shivane",
+        Hotel_Name: "Sunset Haven Inn",
+        facility: "1 Bedroom/ Gym/ Air Conditioning / 1 Bathroom / Wifi /Study Room",
+        rating: './img/5star.png',
+        
+},
+{
+        id: "21",
+        rate: "9500 Rs/ Month",
+        sharing:"1 Sharing",
+        Location: "NIBM Road",
+        Hotel_Name: "NIBM Road",
+        facility: "1 Bedroom/ Gym/ Air Conditioning / 1 Bathroom / Wifi /Study Room",
+        rating: './img/5star.png',
+        
+},
+{
+        id: "22",
+        rate: "9500 Rs/ Month",
+        sharing:"2 Sharing",
+        Location: "Warje",
+        Hotel_Name: "Elite Residency",
+        facility: "1 Bedroom/ Gym/ Air Conditioning / 1 Bathroom / Wifi /Study Room",
+        rating: "./img/5star.png",
+        
+},
+{
+        id: "23",
+        rate: "9500 Rs/ Month",
+        sharing:"3 Sharing",
+        Location: "Yerwada",
+        Hotel_Name: "Verve Living Inn",
+        facility: "1 Bedroom/ Gym/ Air Conditioning / 1 Bathroom / Wifi /Study Room",
+        rating: `./img/5star.png`,
+        
+},
+{
+        id: "24",
+        rate: "9500 Rs/ Month",
+        sharing:"4 Sharing",
+        Location: "Bund Garden",
+        Hotel_Name: "Riverfront Residences",
+        facility: "1 Bedroom/ Gym/ Air Conditioning / 1 Bathroom / Wifi /Study Room",
+        rating: `./img/5star.png`,
+        
+},
+{
+        id: "25",
+        rate: "9500 Rs/ Month",
+        sharing:"5 Sharing",
+        Location: "Amanora Park Town",
+        Hotel_Name: "Utopia Suites",
+        facility: "1 Bedroom/ Gym/ Air Conditioning / 1 Bathroom / Wifi /Study Room",
+        rating: `./img/5star.png`,
+        
+},
+{
+        id: "26",
+        rate: "9500 Rs/ Month",
+        sharing:"1 Sharing",
+        Location: "Bavdhan",
+        Hotel_Name: "Elite Residency",
+        facility: "1 Bedroom/ Gym/ Air Conditioning / 1 Bathroom / Wifi /Study Room",
+        rating: `./img/5star.png`,
+        
+},
+{
+        id: "27",
+        rate: "9500 Rs/ Month",
+        sharing:"2 Sharing",
+        Location: "Dhanori",
+        Hotel_Name: "Highland Retreat",
+        facility: "1 Bedroom/ Gym/ Air Conditioning / 1 Bathroom / Wifi /Study Room",
+        rating: `./img/5star.png`,
+        
+},
+{
+        id: "28",
+        rate: "9500 Rs/ Month",
+        sharing:"3 Sharing",
+        Location: "Kharadi",
+        Hotel_Name: "Harbor Lights Lodge",
+        facility: "1 Bedroom/ Gym/ Air Conditioning / 1 Bathroom / Wifi /Study Room",
+        rating: `./img/5star.png`,
+        
+},
+{
+        id: "29",
+        rate: "9500 Rs/ Month",
+        sharing:"4 Sharing",
+        Location: "Vadgaon Sheri",
+        Hotel_Name: "Regal Heights Inn",
+        facility: "1 Bedroom/ Gym/ Air Conditioning / 1 Bathroom / Wifi /Study Room",
+        rating: `./img/5star.png`,
+        
+},
+{
+        id: "30",
+        rate: "9500 Rs/ Month",
+        sharing:"5 Sharing",
+        Location: "Pune Station",
+        Hotel_Name: "Central Comfort Residency",
+        facility: "1 Bedroom/ Gym/ Air Conditioning / 1 Bathroom / Wifi /Study Room",
+        rating: './img/5star.png',
+        
+}
+    
+];
+
+// Initialize page number and current page content
+let pageNumber = 1;
+let currentPageContent = Hostel_data.slice(0, 5); // Initial page displays 5 items
+nextpage(1);
+
+// Event listeners for left and right arrow buttons
+let leftClick = document.getElementById("left-arr");
+let rightclick = document.getElementById("right-arr");
+leftClick.addEventListener("click", () => arrClick("left"));
+rightclick.addEventListener("click", () => arrClick("right"));
+
+// Function to handle arrow button clicks
+function arrClick(click) {
+    if (click === "right") {
+        pageNumber = pageNumber === 6 ? 1 : pageNumber + 1;
+    }
+    if (click === "left") {
+        pageNumber = pageNumber === 1 ? 6 : pageNumber - 1;
+    }
+    nextpage(pageNumber);
+}
+
+// Event listeners for page index clicks
+let pageIndices = ["first-page", "second-page", "third-page", "fourth-page", "fifth-page", "Sixth-page"];
+pageIndices.forEach(index => {
+    document.getElementById(index).addEventListener("click", (e) => {
+        pageNumber = parseInt(e.target.id.split('-')[0]); // Extract page number from the clicked element's id
+        nextpage(pageNumber);
+    });
+});
+
+// Function to update page content based on the selected page number
+function nextpage(page) {
+    pageNumber = page;
+    currentPageContent = Hostel_data.slice((pageNumber - 1) * 5, pageNumber * 5);
+    currentContent(currentPageContent);
+
+    // Remove 'current' class from all page indices and add it to the current page
+    pageIndices.forEach(index => document.getElementById(index).classList.remove("current"));
+    document.getElementById(`${pageNumber}-page`).classList.add("current");
+}
+
+// Function to update the displayed content on the page
+function currentContent(currentPageContent) {
+    document.getElementById("Lists").innerHTML = "";
+    currentPageContent.forEach(Hostel => {
+        let root = document.getElementById("Lists")
+                let element = document.createElement("div")
+                element.innerHTML = `<div class="house" id=${Hostel.id}>
+        <div class="house-img">
+                <a href="mess1.html"><img src="img/image1.png" /></a>
+        </div>
+        <div class="house-info">
+               <div class="hostel-text-info">
+               <p>${Hostel.Location}</p>
+               <h3>${Hostel.Hotel_Name}</h3>
+               <p>${Hostel.facility}</p>
+                <img id="rating-img" src="${Hostel.rating}"/>
+                </div>
+                <div class="mess-price">
+                      <h2>${Hostel.rate}</h2>
+                      <p style="font-size:15px">${Hostel.Mess_pricing}</p>      
+                </div>
+        </div>
+    </div>`
+
+                return (
+                        root.appendChild(
+                                element
+                        )
+                )
+    });
+}
+
+// Function to filter hostels based on sharing type
+function filters(filter) {
+    document.getElementById("Lists").innerHTML = "";
+    Hostel_data.forEach((Hostel) => {
+        let root = document.getElementById("Lists");
+        let element = document.createElement("div");
+        if (Hostel.sharing.toLowerCase().includes(filter)) {
+            element.innerHTML = `<div class="house" id=${Hostel.id}>
+            <div class="house-img">
+                            <a href="mess1.html"><img src="img/image1.png" /></a>
+                    </div>
+                    <div class="house-info">
+                           <div class="hostel-text-info">
+                           <p>${Hostel.Location}</p>
+                           <h3>${Hostel.Hotel_Name}</h3>
+                           <p>${Hostel.facility}</p>
+                            <img id="rating-img" src="${Hostel.rating}"/>
+                            </div>
+                            <div class="mess-price">
+                            <h2>${Hostel.rate}</h2>
+                                  <p style="font-size:15px">${Hostel.Mess_pricing}</p>
+                            </div>
+                    </div>
+            </div>`;
+            return root.appendChild(element);
+        }
+    });
+}
+
+// Event listeners for sharing type filter buttons
+let sharingFilters = ["1-sharing", "2-sharing", "3-sharing", "4-sharing", "5-sharing"];
+sharingFilters.forEach(filter => {
+    document.getElementById(filter).addEventListener("click", () => {
+        filters(filter.charAt(0));
+    });
+});
+
+// Function to filter hostels based on facilities
+function facility(facility) {
+    document.getElementById("Lists").innerHTML = "";
+    Hostel_data.forEach((Hostel) => {
+        let root = document.getElementById("Lists");
+        let element = document.createElement("div");
+        if (Hostel.facility.toLowerCase().includes(facility)) {
+            element.innerHTML = `<div class="house" id=${Hostel.id}>
+            <div class="house-img">
+                            <a href="mess1.html"><img src="img/image1.png" /></a>
+                    </div>
+                    <div class="house-info">
+                           <div class="hostel-text-info">
+                           <p>${Hostel.Location}</p>
+                           <h3>${Hostel.Hotel_Name}</h3>
+                           <p>${Hostel.facility}</p>
+                            <img id="rating-img" src="${Hostel.rating}"/>
+                            </div>
+                            <div class="mess-price">
+                            <h2>${Hostel.rate}</h2>
+                                  <p style="font-size:15px">${Hostel.Mess_pricing}</p>
+
+                            </div>
+                    </div>
+            </div>`;
+            return root.appendChild(element);
+        }
+    });
+}
+
+// Event listeners for facility filter buttons
+let facilityFilters = ["Air_Conditioning", "Wifi", "Gym", "Study_Room"];
+facilityFilters.forEach(filter => {
+    document.getElementById(filter).addEventListener("click", () => {
+        facility(filter.replace('_', ' '));
+    });
+});
+
+// Function to handle search functionality
+function Search() {
+    document.getElementById("Lists").innerHTML = "";
+    let value = document.getElementById("Search").value.toLowerCase();
+    if (value === "") {
+        nextpage(1);
+    } else {
+        Hostel_data.forEach((Hostel) => {
+            let root = document.getElementById("Lists");
+            let element = document.createElement("div");
+            if (Hostel.Hotel_Name.toLowerCase().includes(value)) {
+                element.classList.add("house");
+                element.innerHTML = `<div class="house" id=${Hostel.id}>
+                <div class="house-img">
+                                    <a href="mess1.html"><img src="img/image1.png" /></a>
+                            </div>
+                            <div class="house-info">
+                                   <div class="hostel-text-info">
+                                   <p>${Hostel.Location}</p>
+                                   <h3>${Hostel.Hotel_Name}</h3>
+                                   <p>${Hostel.facility}</p>
+                                    <img id="rating-img" src="${Hostel.rating}"/>
+                                    </div>
+                                    <div class="mess-price">
+                                    <h2>${Hostel.rate}</h2>
+                                          <p style="font-size:15px">${Hostel.Mess_pricing}</p>
+                                    </div>
+                            </div>
+                   
+                </div>`;
+                return root.appendChild(element);
+            }
+        });
+    }
+}

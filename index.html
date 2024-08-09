@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Nirvahar</title>
+    
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="hamburger">&#9776;</div>
+      <div class="navbar-inner">
+        <ul class="navbar-nav-left nav-links">
+          <li>
+            <a href="listing.html">Accomodation</a>
+          </li>
+          <li>
+            <a href="mess.html">Mess</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav-right nav-links">
+          <li><a href="admin.html">Admin</a></li>
+          <li><a href="login.html">Sign In</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Box A -->
+      <section class="box-a">
+        <div class="main-div-para">
+          <style>
+            h1{
+              font-family: Arial, sans-serif;
+              text-align: center;
+              background-color: #ffffff;
+            }
+            h1{
+              color: #333;
+              font-size: 36px;
+              font-weight: bolder;
+            }
+          </style>
+          <h1>WELCOME TO NIRVAHAR</h1>
+          <p class="text-md">
+            Discover comfortable and affordable accommodations. Enjoy delicious
+            and nutritious meals at our mess service.
+          </p>
+          <p class="text-md">
+            Our website is a trusted provider of comprehensive Mess and Accommodation Services,
+            catering to over 1000 users. We offer high quality food options and comfortable accomodation equipped
+            with all necessary amenities. Our user friendly website ensures easy acccess to services, providing a seamless
+            experience for our users.
+          </p>
+        </div>
+        <div class="fan-text">
+          <div id="main-p">We Provide</div>
+          <span id="about" style="color: #ce5761"> </span>
+        </div> 
+      </section> 
+ <hr><hr>
+    <main>
+      <!-- Box B -->
+      <section class="box box-b bg-secondary grid-col-2">
+        <img class="bg" src="img/mess.png" alt="bed image" />
+        <div class="box-text">
+          <h2 class="text-xl">Mess</h2>
+          <p class="text-md">
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		&nbsp&nbsp&nbsp&nbsp
+		We are providing Delicious And Healthy Meal.
+          </p>
+          <button class="button-3" role="button">
+            <a href="mess.html">Find now</a>
+          </button>
+        </div>
+      </section>
+      <hr><hr>
+      <section class="box box-b bg-secondary grid-col-2">
+        <img class="bg" src="img/house-1.png" alt="bed image" />
+        <div class="box-text">
+          <h2 class="text-xl">Accomodation</h2>
+          <p class="text-md">
+	 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            We are providing comfortable and affordable stay for you.
+          </p>
+          <button class="button-3" role="button">
+            <a href="listing.html">Find now</a>
+          </button>
+        </div>
+      </section>
+    </main>
+    <hr><hr>
+    <div class="divider"></div>
+    <footer class="footer">
+      <div class="left">
+        <ul>
+          <li><a href="">Service</a></li>
+          <li><a href="mess.html">Mess</a></li>
+          <li><a href="listing.html">Accomodation</a></li>
+          <li><a href="c.html">Contact </a></li>
+        </ul>
+      <ul>
+          <li><a href="">Service</a></li>
+          <li><a href="mess.html">Mess</a></li>
+          <li><a href="listing.html">Accomodation</a></li>
+          <li><a href="c.html">Contact </a></li>
+        </ul>
+      </div>
+      <div class="right">
+        <div class="adress">
+          <h2>Address</h2>
+          <div class="ul-div">
+            <ul>
+              <li>Niljyoti Society, 42</li>
+              <li>Gokhlenagar</li>
+              <li>Pune City, 411016</li>
+            </ul>
+          </div>
+        </div>
+        <img class="adressimg" src="img/map.jpg" alt="map" />
+      </div>
+    </footer>
+
+    <script>
+      let hamburger = document.querySelector(".hamburger");
+      let navbar = document.querySelector(".navbar-inner");
+      hamburger.addEventListener("click", () => {
+        navbar.classList.toggle("show");
+      });
+    </script>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#about", {
+        strings: [
+         "Best Hostels",
+         "Best Mess",
+         "Affordable Prices",
+         "Best Places",
+         "Best Hostels",
+         "Best Mess",
+         "Affordable Prices",
+         "Best Places",
+         "Best Hostels",
+         "Best Mess",
+         "Affordable Prices",
+         "Best Places",
+         "Best Hostels",
+         "Best Mess",
+         "Affordable Prices",
+         "Best Places",
+        ],
+        typeSpeed: 80,
+      });
+    </script>
+  </body>
+</html>

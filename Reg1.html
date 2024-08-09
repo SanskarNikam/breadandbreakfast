@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hostel Registration</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        max-width: 400px;
+        margin: 50px auto;
+        background: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+        text-align: center;
+        color: #333;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    select {
+        width: 100%;
+        padding: 10px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 100%;
+    }
+    input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Hostel Registration Form</h2>
+    <form action="project1.php" method="post">
+        <label for="fullname"><b>Full Name:</b></label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email"><b>Email:</b></label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone"><b>Phone Number:</b></label>
+        <input type="text" id="phone" name="phone" required>
+
+<label for="messname"><b>Hostel Name:</b></label>
+        <input type="text" id="hname" name="hname" required>
+&nbsp&nbsp&nbsp
+ 
+
+</fieldset> &nbsp&nbsp&nbsp
+<fieldset data-role="controlgroup" 
+        data-type="horizontal" style="display:flex"> 
+<label><b>Room Type:</b></label>&nbsp&nbsp&nbsp
+<select id="Rtype" name="Rtype">
+    <option value="Roomtype">Select  </option>
+    <option value="1-Sharing">1-Sharing</option>
+    <option value="2-Sharing">2-Sharing</option>
+    <option value="3-Sharing">3-Sharing</option>
+    <option value="4-Sharing">4-Sharing</option>
+    <option value="4+-Sharing">4+-Sharing</option>
+
+</select>
+
+</fieldset> &nbsp&nbsp&nbsp
+</fieldset> &nbsp&nbsp&nbsp
+<fieldset data-role="controlgroup" 
+        data-type="horizontal" style="display:flex"> 
+<label><b>Amenities:</b></label>&nbsp&nbsp&nbsp
+<select id="amenities" name="amenities">
+    <option value="Amenities">Select Amenities </option>
+    <option value="Airconditioning">Air Conditioning</option>
+    <option value="Wifi">Gym</option>
+    <option value="Study Room">Breakfast/Lunch/Dinner</option>
+
+</select>
+</fieldset> &nbsp&nbsp&nbsp
+<label><b>Hostel Description</b></label>
+<div class="input-box" >
+<input type="text" id="descri" name="descri" placeholder="Enter Hostel Description">
+</div>
+<span class="checkmark"></span>
+</label>
+</select>
+<input type="submit" value="Register">
+    </form>
+</div>
+
+</body>
+</html>
+
